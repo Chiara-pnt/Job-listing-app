@@ -11,7 +11,7 @@ function App() {
   const [screenSizeSmall, setScreenSizeSmall] = useState(undefined);
 
   useEffect(() => {
-    const mql = window.matchMedia("(max-width: 375px)");
+    const mql = window.matchMedia("(max-width: 650px)");
     function screenTest(e) {
       if (e.matches) {
         /* the viewport is 600 pixels wide or less */
